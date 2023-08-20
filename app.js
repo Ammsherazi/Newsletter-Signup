@@ -32,7 +32,7 @@ app.post("/", function (req,res) {
     const url="https://us8.api.mailchimp.com/3.0/lists/8cc2df8ba6";
     const options={
         method:"POST",
-        auth: "Amm:541a8d76fcafb21ef5156e520d2c828d-us8"
+        auth: "Amm:50360afe5f2c4270d5f99e064a9937cb-us8"
         };
 
     const request = https.request(url, options, function (response) { 
@@ -58,7 +58,7 @@ app.post("/failure", function(req,res){
    });
 
 //api key  
-//541a8d76fcafb21ef5156e520d2c828d-us8
+//50360afe5f2c4270d5f99e064a9937cb-us8
 //list id
 //8cc2df8ba6
 //url
